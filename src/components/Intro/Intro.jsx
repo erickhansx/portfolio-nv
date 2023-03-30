@@ -5,7 +5,7 @@ import classes from './Intro.module.scss';
 const Intro = () => {
   return (
     <SectionWrapper styles={'height-80 flex'}>
-      <div id="hero" className={`${classes['text-intro']}`}>
+      <div id="top" className={`${classes['text-intro']}`}>
         <h6>creative & intuitive developing</h6>
         <p>
           building the web,

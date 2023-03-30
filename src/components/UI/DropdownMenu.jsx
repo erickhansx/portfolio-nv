@@ -7,7 +7,7 @@ const DropdownMenu = () => {
       <a href="#" className={classes['menu-item']}>
         Works
       </a>
-      <a href="#" className={classes['menu-item']}>
+      <a href="#about" className={classes['menu-item']}>
         About
       </a>
       <a href="#" className={classes['menu-item']}>
@@ -16,7 +16,7 @@ const DropdownMenu = () => {
       <a href="#" className={classes['menu-item']}>
         Start a project
       </a>
-      <a href="#hero" className={classes['menu-item']}>
+      <a href="#" className={classes['menu-item']}>
         Take me back to the start
       </a>
     </Fragment>

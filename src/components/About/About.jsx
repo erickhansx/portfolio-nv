@@ -5,7 +5,7 @@ import LinksAnimation from './LinksAnimation';
 const About = () => {
   return (
     <SectionWrapper styles={'flex-right height-70'}>
-      <div className={classes.about}>
+      <div className={classes.about} id="about">
         <div className={classes['about-main']}>
           <h1>This is my gift, my curse. Who am i? I'm Erick Hans</h1>
           <p>
