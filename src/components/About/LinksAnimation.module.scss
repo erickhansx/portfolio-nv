@@ -1,0 +1,35 @@
+.animation-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem 0;
+  color: white;
+  margin-top: 4rem;
+}
+
+.animation-container--links a {
+  color: white;
+  margin: 1rem;
+}
+
+.animation-container--links {
+  font-size: 4rem;
+  display: block;
+  width: 100%;
+  transform: translateX(100%);
+  animation: move 10s linear infinite;
+  @media only screen and (min-width: 768px) {
+    width: 80%;
+  }
+}
+
+@keyframes move {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animation-container--links:hover {
+  animation-play-state: paused;
+}
