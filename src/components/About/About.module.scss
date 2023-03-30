@@ -1,0 +1,23 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media only screen and (min-width: 600px) {
+    max-width: 50%;
+  }
+
+  & h1 {
+    color: #ddff3c;
+    font-size: 1.4rem;
+  }
+
+  & p {
+    color: #fff;
+    font-size: 2rem;
+  }
+}
+
+.about-main {
+  justify-content: flex-end;
+}
