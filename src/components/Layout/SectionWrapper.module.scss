@@ -1,0 +1,8 @@
+.padding-global {
+  padding-right: 4.17em;
+  padding-left: 4.17em;
+}
+
+.padding-global:nth-of-type(even) {
+  background-color: black;
+}
