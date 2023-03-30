@@ -1,0 +1,127 @@
+.nav-menu {
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+  position: fixed;
+
+  & h6 {
+    font-size: 2.2rem;
+    text-shadow: 0.5px 1px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.menu-button {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  min-width: 17rem;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  border: 1px solid black;
+  padding: 0.5rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);
+  @media only screen and (max-width: 768px) {
+    min-width: 2rem;
+    background-color: #fff;
+  }
+}
+
+.menu-close {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #7a22eb;
+  padding: 0 1rem;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: 500;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);
+
+  @media only screen and (min-width: 768px) {
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+}
+
+span {
+  font-size: 2rem;
+}
+
+.navbar-nav {
+  max-width: 100%;
+  display: flex;
+}
+
+.menu-item:nth-of-type(1) {
+  margin-top: 1rem;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  transition: background 500ms;
+  margin-left: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: red;
+  }
+}
+
+.menu-item:hover h6 {
+  font-size: 2rem;
+}
+
+// .navbar {
+//   height: var(--nav-size);
+//   background-color: var(--bg);
+//   padding: 0 1rem;
+//   border-bottom: var(--border);
+// }
+
+// .navbar-nav {
+//   max-width: 100%;
+//   height: 100%;
+//   display: flex;
+//   justify-content: flex-end;
+// }
+
+// .nav-item {
+//   width: calc(var(--nav-size) * 0.8);
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+// .icon-button {
+//   --button-size: calc(var(--nav-size) * 0.5);
+//   width: var(--button-size);
+//   height: var(--button-size);
+//   border-radius: 50%;
+//   padding: 5px;
+//   margin: 2px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   transition: filter 300ms;
+// }
+
+// .icon-button:hover {
+//   filter: brightness(1.2);
+// }
+
+// .dropdown {
+//   position: absolute;
+//   top: 58px;
+//   width: 300px;
+//   transform: translateX(-45%);
+//   background-color: var(--bg);
+//   border: var(--border);
+//   border-radius: var(--border-radius);
+//   padding: 1rem;
+//   overflow: hidden;
+// }
