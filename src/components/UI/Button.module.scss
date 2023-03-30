@@ -1,0 +1,26 @@
+.button {
+  background-color: #7a22eb;
+  color: #fff;
+  padding: 1.5rem 3.5rem;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 600;
+  position: relative;
+
+  & span {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    animation: flip 4s infinite;
+    animation-delay: calc(0.1s * var(--k));
+  }
+}
+
+@keyframes flip {
+  0%,
+  80% {
+    transform: rotateY(360deg);
+  }
+}
