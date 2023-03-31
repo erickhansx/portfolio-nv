@@ -1,6 +1,6 @@
 .modal {
   position: fixed;
-  left: 100%;
+  left: 0;
   top: 0;
   right: 0;
   bottom: 0;
@@ -10,26 +10,26 @@
   align-items: center;
   justify-content: center;
   z-index: 99999;
-  animation: fadeIn 2s ease;
-  animation-fill-mode: forwards;
+  // animation: fadeIn 2s ease;
+  // animation-fill-mode: forwards;
 }
 
-@keyframes fadeIn {
-  from {
-    left: 100%;
-    top: 100%;
-    right: 100%;
-    bottom: 100%;
-    opacity: 0;
-  }
-  to {
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 1;
-  }
-}
+// @keyframes fadeIn {
+//   from {
+//     left: 100%;
+//     top: 100%;
+//     right: 100%;
+//     bottom: 100%;
+//     opacity: 0;
+//   }
+//   to {
+//     left: 0;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     opacity: 1;
+//   }
+// }
 
 .modal-content {
   height: 95%;

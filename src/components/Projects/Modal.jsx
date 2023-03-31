@@ -1,9 +1,8 @@
 import Button from '../UI/Button';
 import classes from './Modal.module.scss';
-const assets = require('../../Assets');
 const Modal = (props) => {
-  const onHandleModalClose = (e) => {
-    const index = parseInt(e.target.getAttribute('data-index'));
+  const index = props.index;
+  const onHandleModalClose = (index) => {
     props.onClose(index);
   };
   return (
@@ -17,13 +16,13 @@ const Modal = (props) => {
           <img src={props.imgPath} alt="" />
         </div>
         <div className={classes['modal-footer']}>
-          <button
+          <Button
             data-index={props.index}
             className={classes['button']}
-            onClick={onHandleModalClose}
+            onClick={() => onHandleModalClose(index)}
           >
             Close
-          </button>
+          </Button>
         </div>
       </div>
     </div>

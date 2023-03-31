@@ -15,7 +15,7 @@ const Button = (props) => {
     <button
       type={props.type ? props.type : 'button'}
       className={classes.button}
-      data-index={props['data-index'] ? props['data-index'] : null}
+      data-index={props['data-index']}
       onClick={onHandleClick}
     >
       {chars.map((char) => {

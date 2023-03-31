@@ -9,8 +9,6 @@ import { useState } from 'react';
 import Modal from './Modal';
 
 const Projects = () => {
-  const [isVisible, setIsVisible] = useState(false);
-
   const [projectsList, setProjectList] = useState([
     {
       title: 'PetBNB',
@@ -45,16 +43,16 @@ const Projects = () => {
   ]);
 
   const animationClickHandler = (e) => {
-    console.log(projectsList[1].imgPath);
     const index = parseInt(e.target.getAttribute('data-index'));
     const newProjectList = [...projectsList];
+    console.log(projectsList[index]);
     newProjectList[index].isModalOpen = true;
     setProjectList(newProjectList);
   };
 
   const handleModalClose = (index) => {
+    projectsList[index].isModalOpen = false;
     const newProjectList = [...projectsList];
-    newProjectList[index].isModalOpen = false;
     setProjectList(newProjectList);
   };
 
@@ -70,17 +68,16 @@ const Projects = () => {
         <div className="projects">
           {projectsList.map((project, index) => (
             <>
-              <div className={`works-${index}`}>
+              <div
+                className={`works-${index}`}
+                data-index={index}
+                onClick={(e) => animationClickHandler(e)}
+              >
                 <div className="works-text">
                   <h1>{project.title}</h1>
                   <span>{project.short}</span>
                 </div>
-                <div
-                  key={index}
-                  data-index={index}
-                  className="absolute-div"
-                  onClick={animationClickHandler}
-                >
+                <div key={index} data-index={index} className="absolute-div">
                   <img src={project.img} alt="" />
                 </div>
               </div>
