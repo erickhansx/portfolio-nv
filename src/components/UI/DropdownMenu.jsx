@@ -4,7 +4,7 @@ import classes from './Navbar.module.scss';
 const DropdownMenu = () => {
   return (
     <Fragment>
-      <a href="#" className={classes['menu-item']}>
+      <a href="#works" className={classes['menu-item']}>
         Works
       </a>
       <a href="#about" className={classes['menu-item']}>

@@ -6,6 +6,9 @@
   padding: 1.5rem 0;
   color: white;
   margin-top: 4rem;
+  @media only screen and (min-width: 768px) {
+    overflow: hidden;
+  }
 }
 
 .animation-container--links a {
@@ -19,7 +22,7 @@
   display: block;
   width: 100%;
   transform: translateX(100%);
-  animation: move 10s linear infinite;
+  animation: move 8s linear infinite;
   @media only screen and (min-width: 768px) {
     width: 100%;
     font-size: 4rem;
