@@ -20,7 +20,7 @@ const NavItem = (props) => {
           <span>MENU</span>
           <BiPlus style={style} />
         </div>
-        <li style={contentStyle}>{props.children}</li>
+        <span style={contentStyle}>{props.children}</span>
       </li>
     </>
   );

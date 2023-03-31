@@ -17,8 +17,8 @@ const About = () => {
             pizza, and appreciate different forms of art. Let's build something
             great together!
           </p>
+          <LinksAnimation />
         </div>
-        <LinksAnimation />
       </div>
     </SectionWrapper>
   );

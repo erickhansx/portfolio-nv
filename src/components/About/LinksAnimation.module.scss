@@ -14,13 +14,15 @@
 }
 
 .animation-container--links {
-  font-size: 4rem;
+  font-size: 3rem;
+
   display: block;
   width: 100%;
   transform: translateX(100%);
   animation: move 10s linear infinite;
   @media only screen and (min-width: 768px) {
-    width: 80%;
+    width: 100%;
+    font-size: 4rem;
   }
 }
 

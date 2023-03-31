@@ -1,5 +1,11 @@
 import classes from './LinksAnimation.module.scss';
-import { FaGithubAlt, FaLinkedin, FaTwitter, FaMediumM } from 'react-icons/fa';
+import {
+  FaGithubAlt,
+  FaLinkedin,
+  FaTwitter,
+  FaMediumM,
+  FaAngellist,
+} from 'react-icons/fa';
 
 const LinksAnimation = () => {
   return (
@@ -16,6 +22,9 @@ const LinksAnimation = () => {
         </a>
         <a href="https://medium.com/@erickhansx" target="_blank">
           <FaMediumM />
+        </a>
+        <a href="https://wellfound.com/u/erick-hans" target="_blank">
+          <FaAngellist />
         </a>
       </div>
     </div>
