@@ -1,6 +1,6 @@
 import SectionWrapper from '../Layout/SectionWrapper';
 import classes from './Projects.module.scss';
-import { FaStar } from 'react-icons/fa';
+import { FaCrown } from 'react-icons/fa';
 import PETBNB from '../../img/PETBNB-small.jpeg';
 import BookStore from '../../img/bookstore.png';
 import SpaceRocket from '../../img/Spacerocket.jpeg';
@@ -62,7 +62,7 @@ const Projects = () => {
         <div className={classes.header}>
           <h1>Selected Cases</h1>
           <span>
-            <FaStar />
+            <FaCrown />
           </span>
         </div>
         <div className="projects">

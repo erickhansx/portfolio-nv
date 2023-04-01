@@ -1,0 +1,65 @@
+// #7a22eb
+
+.form-parent {
+  display: flex;
+  justify-content: flex-start;
+  height: 70vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  color: #fff;
+
+  @media only screen and (min-width: 600px) {
+    width: 50%;
+  }
+
+  & div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    & input,
+    textarea {
+      border: none;
+      border-radius: 3px;
+    }
+    & input {
+      height: 3rem;
+    }
+    & textarea {
+      margin-bottom: 4rem;
+      height: 100px;
+    }
+    & label {
+      font-size: 2rem;
+      color: #7a22eb;
+    }
+
+    & button {
+      @media only screen and (min-width: 600px) {
+        width: 65%;
+      }
+    }
+  }
+
+  &-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+    & span {
+      color: #ddff3c;
+    }
+  }
+
+  &-header__container {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

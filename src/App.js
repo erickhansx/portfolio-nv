@@ -1,5 +1,6 @@
 import { Fragment } from 'react';
 import About from './components/About/About';
+import ContactForm from './components/Contact/ContactForm';
 import Intro from './components/Intro/Intro';
 import Modal from './components/Projects/Modal';
 import Projects from './components/Projects/Projects';
@@ -18,6 +19,7 @@ function App() {
       <Intro />
       <About />
       <Projects />
+      <ContactForm />
     </Fragment>
   );
 }

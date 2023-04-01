@@ -16,7 +16,7 @@ const Button = (props) => {
       type={props.type ? props.type : 'button'}
       className={classes.button}
       data-index={props['data-index']}
-      onClick={onHandleClick}
+      onClick={props.onClick ? onHandleClick : null}
     >
       {chars.map((char) => {
         i++;
