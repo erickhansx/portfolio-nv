@@ -10,10 +10,10 @@ const DropdownMenu = () => {
       <a href="#about" className={classes['menu-item']}>
         About
       </a>
-      <a href="#" className={classes['menu-item']}>
+      <a href="#contact" className={classes['menu-item']}>
         Contact
       </a>
-      <a href="#" className={classes['menu-item']}>
+      <a href="#contact" className={classes['menu-item']}>
         Start a project
       </a>
       <a href="#" className={classes['menu-item']}>

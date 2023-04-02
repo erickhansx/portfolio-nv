@@ -26,7 +26,7 @@ const ContactForm = () => {
 
   return (
     <SectionWrapper styles={'height-70'}>
-      <div className={classes['form-header__container']}>
+      <div id="contact" className={classes['form-header__container']}>
         <h1 className={classes['form-header']}>
           <span>
             <AiFillStar />
