@@ -2,7 +2,6 @@ import { Fragment } from 'react';
 import About from './components/About/About';
 import ContactForm from './components/Contact/ContactForm';
 import Intro from './components/Intro/Intro';
-import Modal from './components/Projects/Modal';
 import Projects from './components/Projects/Projects';
 import DropdownMenu from './components/UI/DropdownMenu';
 import Navbar from './components/UI/Navbar';

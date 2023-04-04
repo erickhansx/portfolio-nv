@@ -3,7 +3,8 @@ import classes from './Projects.module.scss';
 import { FaCrown } from 'react-icons/fa';
 import PETBNB from '../../img/PETBNB-small.jpeg';
 import BookStore from '../../img/bookstore.png';
-import SpaceRocket from '../../img/Spacerocket.jpeg';
+import SpaceRocket from '../../img/Leaderboard.jpeg';
+import WorldData from '../../img/world-data.png';
 import './Projects.scss';
 import { useState } from 'react';
 import Modal from './Modal';
@@ -19,6 +20,8 @@ const Projects = () => {
       img: PETBNB,
       imgPath: require('../../img/PETBNB-small.jpeg'),
       isModalOpen: false,
+      github: 'https://github.com/Full-Stack-Capstone/petbnb-front',
+      livePage: 'https://fantastic-maamoul-0b2722.netlify.app/',
     },
     {
       title: 'Book Store',
@@ -29,6 +32,8 @@ const Projects = () => {
       img: BookStore,
       imgPath: require('../../img/bookstore.png'),
       isModalOpen: false,
+      github: 'https://github.com/erickhansx/bookstore',
+      livePage: 'https://fascinating-crostata-787ee2.netlify.app/',
     },
     {
       title: 'Leaderboard',
@@ -37,8 +42,22 @@ const Projects = () => {
       short:
         'Leaderboard to keep track of your gaming scores. Add, remove, and keep track of your best scores.',
       img: SpaceRocket,
-      imgPath: require('../../img/Spacerocket.jpeg'),
+      imgPath: require('../../img/Leaderboard.jpeg'),
       isModalOpen: false,
+      github: 'https://github.com/erickhansx/leaderboard',
+      livePage: 'https://erickhansx.github.io/leaderboard/dist/',
+    },
+    {
+      title: 'Leaderboard',
+      description:
+        'Country Stocks is an app where you can check the stock values filtered by country. The app requests information from an api and displays said information on the screen.',
+      short:
+        'Country Stocks is an app where you can check the stock values filtered by country. The app requests information from an api and displays said information on the screen.',
+      img: WorldData,
+      imgPath: require('../../img/world-data.png'),
+      isModalOpen: false,
+      github: 'https://github.com/erickhansx/react-capstone',
+      livePage: 'https://zippy-salamander-5d059d.netlify.app/',
     },
   ]);
 
@@ -91,6 +110,8 @@ const Projects = () => {
                   img={project.img}
                   index={index}
                   imgPath={project.imgPath}
+                  livePage={project.livePage}
+                  github={project.github}
                 />
               )}
             </>

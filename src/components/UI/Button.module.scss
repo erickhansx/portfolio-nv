@@ -16,6 +16,16 @@
     animation: flip 4s infinite;
     animation-delay: calc(0.1s * var(--k));
   }
+
+  &:hover {
+    background-color: rgb(122, 34, 235, 0.6);
+  }
+
+  &:active {
+    background-color: #fff;
+    color: #7a22eb;
+    border: 1px solid #7a22eb;
+  }
 }
 
 @keyframes flip {

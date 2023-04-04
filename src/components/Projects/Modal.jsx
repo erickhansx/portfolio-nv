@@ -14,14 +14,18 @@ const Modal = (props) => {
         <div className={classes['modal-header']}>
           <h4 className={classes['modal-title']}>{props.title}</h4>
           <div className={classes['modal-icons']}>
-            <a href="#">
+            <a href={props.github} target="_blank" rel="noreferrer">
               <FaGithubAlt />
             </a>
-            <span>View code</span>
-            <a href="#">
+            <a href={props.github} target="_blank" rel="noreferrer">
+              <span>View code</span>
+            </a>
+            <a href={props.livePage} target="_blank" rel="noreferrer">
               <HiOutlineStatusOnline />
             </a>
-            <span>Watch live</span>
+            <a href={props.livePage} target="_blank" rel="noreferrer">
+              <span>Watch live</span>
+            </a>
           </div>
         </div>
         <div className={classes['modal-img']}>

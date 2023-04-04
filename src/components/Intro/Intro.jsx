@@ -11,7 +11,9 @@ const Intro = () => {
           building the web,
           <br /> one stack at a time.
         </p>
-        <Button>Contact me</Button>
+        <a href="#contact">
+          <Button> Contact me</Button>
+        </a>
       </div>
     </SectionWrapper>
   );
