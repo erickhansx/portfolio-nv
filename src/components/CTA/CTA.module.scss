@@ -45,6 +45,10 @@
   justify-content: center;
   grid-area: t4;
 
+  & span {
+    text-align: center;
+  }
+
   @media only screen and (min-width: 600px) {
     flex-direction: column;
   }

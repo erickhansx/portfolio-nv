@@ -4,7 +4,7 @@ import SectionWrapper from '../Layout/SectionWrapper';
 
 const CTA = () => {
   return (
-    <SectionWrapper styles={'height-80 flex'}>
+    <SectionWrapper styles={'height-80 flex-center'}>
       <div className={classes['lets-connect']}>
         <h1 className={classes.header}>
           <span className={classes.lets}>Let's</span>{' '}
