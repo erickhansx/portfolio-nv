@@ -1,7 +1,7 @@
 import SectionWrapper from '../Layout/SectionWrapper';
 import classes from './Projects.module.scss';
 import { FaCrown } from 'react-icons/fa';
-import PETBNB from '../../img/PETBNB-small.jpeg';
+import PETBNB from '../../img/PETBNB-small1.png';
 import BookStore from '../../img/bookstore.png';
 import SpaceRocket from '../../img/Leaderboard.jpeg';
 import WorldData from '../../img/world-data.png';
@@ -18,7 +18,7 @@ const Projects = () => {
       short:
         'PETBNB Whether you have a dog or a cat, you can create a pet profile, make reservations, and delete them as needed.',
       img: PETBNB,
-      imgPath: require('../../img/PETBNB-small.jpeg'),
+      imgPath: require('../../img/PETBNB-small1.png'),
       isModalOpen: false,
       github: 'https://github.com/Full-Stack-Capstone/petbnb-front',
       livePage: 'https://fantastic-maamoul-0b2722.netlify.app/',
