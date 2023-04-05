@@ -1,0 +1,72 @@
+.lets-connect {
+  color: white;
+  text-transform: uppercase;
+
+  @media only screen and (min-width: 900px) {
+    display: grid;
+    grid-template-areas: 'b1 b1 b1 b1' 't1 t2 t2 t4';
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.8;
+  justify-self: center;
+
+  & span {
+    font-size: 8rem;
+    font-weight: 200;
+    word-spacing: 0.2;
+    letter-spacing: -1px;
+    text-align: center;
+
+    @media only screen and (min-width: 768px) {
+      font-size: 10rem;
+    }
+  }
+}
+
+.lets {
+  grid-area: t1;
+}
+
+.skills {
+  grid-area: t2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-area: t4;
+
+  @media only screen and (min-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.circular {
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  margin: 0 1rem;
+}
+
+.skillsh {
+  color: #fff;
+  grid-area: b1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

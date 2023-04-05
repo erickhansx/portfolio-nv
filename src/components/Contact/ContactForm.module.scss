@@ -24,6 +24,7 @@
 
     & input,
     textarea {
+      background-color: rgba(221, 255, 60, 0.2);
       border: none;
       border-radius: 3px;
     }
@@ -50,7 +51,7 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: #fff;
+    color: #000;
     font-size: 3rem;
     text-transform: uppercase;
     & span {

@@ -6,6 +6,7 @@ import Projects from './components/Projects/Projects';
 import DropdownMenu from './components/UI/DropdownMenu';
 import Navbar from './components/UI/Navbar';
 import NavItem from './components/UI/NavItem';
+import CTA from './components/CTA/CTA';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Intro />
       <About />
       <Projects />
+      <CTA />
       <ContactForm />
     </Fragment>
   );

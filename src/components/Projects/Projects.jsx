@@ -48,7 +48,7 @@ const Projects = () => {
       livePage: 'https://erickhansx.github.io/leaderboard/dist/',
     },
     {
-      title: 'Leaderboard',
+      title: 'Country Stocks',
       description:
         'Country Stocks is an app where you can check the stock values filtered by country. The app requests information from an api and displays said information on the screen.',
       short:

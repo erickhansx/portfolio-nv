@@ -17,8 +17,11 @@ const About = () => {
             lies in minimal and brutalist design, and I have expertise in React,
             JavaScript, HTML, CSS, Ruby on Rails, and GitHub. When I'm not
             coding, I love to spend time in nature, indulge in some delicious
-            pizza, and appreciate different forms of art. Let's build something
-            great together!
+            pizza, and appreciate different forms of art. As a strategic thinker
+            and confident communicator, I can learn new things quickly and
+            collaborate effectively with remote teams. Mentoring 5+ junior
+            developers to achieve concrete goals on tight deadlines with a
+            success rate of 98%. Let's build something great together!
           </p>
           <LinksAnimation />
         </div>
